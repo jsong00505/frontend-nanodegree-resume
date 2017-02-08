@@ -68,3 +68,27 @@ function nameChanger(oldName) {
 }
 
 ```
+
+## Object Literal Notation
+
+There are no classes in JS
+
+```javascript
+
+var myObj = {};
+
+var bio = {
+	"name": "jsong",
+	"age": 28
+};
+
+// add value
+bio["city"] = "Seoul";
+```
+## JSON
+
+JavaScript Object Notation
+
+## Validating JSON
+
+[jsonlint](jsonlint.com)
