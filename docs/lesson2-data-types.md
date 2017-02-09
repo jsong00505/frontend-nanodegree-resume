@@ -7,7 +7,7 @@
 	var firstName = "james";
 	var age = 32;
 	consol.log(firstName);
-	
+
 ```
 
 ## string.replace()
@@ -92,3 +92,20 @@ JavaScript Object Notation
 ## Validating JSON
 
 [jsonlint](jsonlint.com)
+
+## RegExp g Modifier
+
+```javascript
+var str = "Is this all there is?";
+var patt1 = /is/g;
+var result_match = str.match(patt1);
+var result_replace = str.match(patt1, "jsong");
+
+consol.log(result_match);
+consol.log(result_replace);
+```
+[w3schools](http://www.w3schools.com/jsref/jsref_regexp_g.asp)
+
+## Dot Notation vs Bracket Notation
+
+Bracket notation always works. Dot notation requires properties that begin with a letter and do not include special characters.
