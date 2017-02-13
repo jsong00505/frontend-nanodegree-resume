@@ -118,3 +118,12 @@ $("#header").prepend(formattedName);
 $("#header").append(formattedwelcomeMsg);
 $("#header").append(formattedEmail);
 $("#header").append(formattedbioPic);
+
+if(bio.skills.length > 0) {
+	$("#header").append(HTMLskillsStart);
+
+	for(var i in bio.skills) {
+		var formmatedSkill = HTMLskills.replace("%data%", bio.skills[i]);
+		$("#skills").append(formmatedSkill);
+	}
+}
